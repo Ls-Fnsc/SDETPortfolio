@@ -1,0 +1,147 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 0.5rem 0rem;
+  background-color: transparent;
+  color: black;
+  z-index: 10;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 6rem;
+}
+
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+  margin-right: 6rem;
+}
+
+.navigation-menu li {
+  list-style-type: none;
+  
+  margin-left: 2rem;
+}
+
+.navigation-menu li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 21px;
+}
+
+.hamburger {
+  color: white;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+  
+.hamburger:hover {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+
+  .navigation-menu ul {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    margin-left: 1.5rem;
+    font-size: 20px;
+  }
+
+  .navigation-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #141A4A;
+  }
+
+  .navigation-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation-menu li a {
+    color: white;
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 30px;
+  }
+
+  .navigation-menu li:hover {
+    /*background-color: #eee;*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation.expanded {
+    background-color: #141A4A;
+  }
+  
+  .navigation-menu.expanded {
+    display: block;
+    z-index: 10;
+  }
+  
+  .navigation-menu.expanded ul {
+    display: block;
+    z-index: 10;
+  }
+
+  .navigation-menu.expanded li a {
+    font-size: 30px;
+  }
+}
+
+/* Making font smaller for smaller sized laptops */
+@media screen and (max-width: 1050px) {
+  .name {
+    font-size: 20px;
+  }
+
+  .navigation-menu li a {
+    font-size: 15px;
+  }
+}
