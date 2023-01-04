@@ -5,9 +5,16 @@
   align-items: center;
   position: fixed;
   padding: 0.5rem 0rem;
-  background-color: transparent;
   color: black;
   z-index: 10;
+}
+
+.navigationBackground {
+  background-color: transparent;
+}
+
+.navigationBackground.scrolled {
+  background-color: #11173c;
 }
 
 .name {
@@ -88,7 +95,7 @@
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: #141A4A;
+    background-color: #11173c;
   }
 
   .navigation-menu ul {
@@ -117,7 +124,8 @@
 
 @media screen and (max-width: 768px) {
   .navigation.expanded {
-    background-color: #141A4A;
+    /*background-color: #141A4A;*/
+    background-color: #11173c;
   }
   
   .navigation-menu.expanded {

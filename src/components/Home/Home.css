@@ -11,55 +11,82 @@ body {
   height: 100vh;
 }
 
-section {
-    width: 100%;
-    height: 100vh;
-    padding-left: 15%;
-    padding-right: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  padding-left: 15%;
+  padding-right: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
-span {
+.homeContainer span {
   font-family: 'Hind', sans-serif;
   color: white;
 }
 
-h1 {
+.homeContainer h1 {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 60px;
 }
 
-h2 {
+.homeContainer h2 {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 50px;
+  margin-bottom: 5%;
 }
 
-p {
+.homeContainer p {
   font-family: 'Hind', sans-serif;
-  color: white;
+  color: #cdcdcd;
   font-size: 17px;
+  margin-bottom: 5%;
+}
+
+.callToAction {
+  width: 200px;
+  padding: 15px 25px;
+
+  color: black;
+  background-color: #09FF00;
+
+  border: 1px solid #09FF00;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.callToAction:hover {
+  color: white;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
-  section {
+  .homeContainer {
     padding-left: 24px;
     padding-right: 24px;
-}
+  }
 
-  h1 {
+  .homeContainer h1 {
     font-size: 30px;
+    margin-bottom: 3%;
   }
   
-  h2 {
+  .homeContainer h2 {
     font-size: 25px;
+    margin-bottom: 10%;
   }
   
-  p {
-    font-size: 15px;
+  .homeContainer p {
+    margin-bottom: 9%;
+  }
+
+  .callToAction {
+    font-size: 12px;
   }
 }
