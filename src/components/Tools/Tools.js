@@ -16,6 +16,7 @@ import slackLogo from '../../images/slack_logo.png';
 import teamsLogo from '../../images/teams_logo.png';
 import testrailLogo from '../../images/testrail_logo.png';
 import visualStudioLogo from '../../images/visual_studio_logo.png';
+import browserstackLogo from '../../images/browserstack_logo.png';
 
 
 export const Tools = () => {
@@ -38,7 +39,7 @@ export const Tools = () => {
                 <CardContent>
                   <img src={confluenceLogo} alt="Confluence logo" style={{width: "200px"}}></img>
                   <p>
-                    Confluence is a team workspace where knowledge and collaboration meet, Commonly used as a platform that allows teams to write and store documentation.
+                    Workspace where knowledge and collaboration meet. Commonly used as a platform that allows teams to write and store documentation.
                   </p>
                 </CardContent>
               </Card>
@@ -129,6 +130,16 @@ export const Tools = () => {
                   <img src={appiumLogo} alt="Appium logo" style={{width: "115px"}}></img>
                   <p>
                     Open-source tool for automating native, mobile web, and hybrid applications on iOS mobile, Android mobile, and Windows desktop platforms.
+                  </p>
+                </CardContent>
+              </Card>
+          </Grid>
+          <Grid item xs={2} sm={4} md={4}>
+              <Card className="toolCard">
+                <CardContent>
+                  <img src={browserstackLogo} alt="Browserstack logo" style={{width: "95px"}}></img>
+                  <p>
+                    Cross-browser testing platform that lets testers integrate tools to perform automated, visual, and live testing across mobile applications and websites.
                   </p>
                 </CardContent>
               </Card>

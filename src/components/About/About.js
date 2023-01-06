@@ -29,9 +29,3 @@ export const About = () => {
     </div>
   )
 }
-
-{/*
-          <Grid item xs={2} sm={4} md={8} className="titleColumn">
-            <h2>About me</h2>
-          </Grid>
-*/}

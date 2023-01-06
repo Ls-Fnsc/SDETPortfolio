@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+}
+
+.caseStudyContainer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0 15% 15% 15%;
+    text-align: left;
+}
+
+.caseStudyContainer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.caseStudyContainer p {
+    font-family: 'Hind', sans-serif;
+    color: #383838;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+
+/*Kickstarter mockup styles*/
+.kickstarterRow {
+    margin-bottom: 100px;
+}
+
+.kickstarterRow h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.kickstarterRow p {
+    margin-bottom: 20px;
+}
+
+.kickstarterRow .callToAction:hover {
+    color: black;
+    background-color: #09FF00;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mockupContainer {
+    text-align: center;
+}
+
+.kickstarterRow img {
+    width: 250px;
+}
+
+/*Qase mockup styles*/
+.qaseRow {
+    margin-bottom: 100px;
+}
+
+.qaseRow h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.qaseRow p {
+    margin-bottom: 20px;
+}
+
+.qaseRow .callToAction:hover {
+    color: black;
+    background-color: #09FF00;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.qaseRow img {
+    width: 100%;
+}
+
+/*Appium mockup styles*/
+.appiumRow {
+    
+}
+
+.appiumRow h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.appiumRow p {
+    margin-bottom: 20px;
+}
+
+.appiumRow .callToAction:hover {
+    color: black;
+    background-color: #09FF00;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.appiumRow img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudyContainer {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 100px;
+    }
+}

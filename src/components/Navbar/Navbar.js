@@ -62,39 +62,3 @@ export const Navbar = () => {
         </nav>
     )
 }
-
-{/*
-
-        <nav className={ isNavExpanded ? "navigation expanded" : "navigation" }>
-            <a href="/" className={ isNavExpanded ? "name expanded" : "name" }>
-                LUIS FONSECA
-            </a>
-
-            <button className="hamburger" onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
-            }}>
-                <Hamburguer toggled={isOpen} toggle={setOpen}/>
-            </button>
- 
-            <div className={ isNavExpanded ? "navigation-menu expanded" : "navigation-menu" }>
-                <ul>
-                    <li>
-                        <a href="/home">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about">About</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Tools</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Case study</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-*/}

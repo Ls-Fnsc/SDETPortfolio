@@ -42,7 +42,7 @@ body {
 
 .homeContainer p {
   font-family: 'Hind', sans-serif;
-  color: #cdcdcd;
+  color: white;
   font-size: 17px;
   margin-bottom: 5%;
 }
@@ -52,6 +52,7 @@ body {
   padding: 15px 25px;
 
   color: black;
+  font-weight: 600;
   background-color: #09FF00;
 
   border: 1px solid #09FF00;

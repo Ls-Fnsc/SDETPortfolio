@@ -22,7 +22,8 @@ export const Home = () => {
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0xbff00,
-          backgroundColor: 0x131A43
+          backgroundColor: 0x131A43,
+          spacing: 20.00
         })
       );
     }
