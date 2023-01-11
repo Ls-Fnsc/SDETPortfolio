@@ -3,89 +3,42 @@ import './CaseStudy.css';
 
 import Grid from '@mui/material/Grid';
 
-import kickstarterMockup from '../../images/kickstarter_android.png';
 import qaseMockup from '../../images/test_case_qase.png';
 import appiumMockup from '../../images/appium_intellij.png';
 
 export const CaseStudy = () => {
   return (
     <div className="caseStudyContainer">
-        <h2>Case study: Kickstarter</h2>
+        <h2>Case study: Kickstarter (Android)</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            The goal of this case study is to showcase my ability to understand the requirements of a software product, write test plans and test cases, and develop automation scripts that ultimately help the QA analyst focus on more impactful manual tasks. Kickstarter has been selected because it is an open source project with its source code for iOS, Android and Web available on a public repository.
         </p>
-
-        <div className="kickstarterRow">
+        <div>
             <Grid container spacing={4} columns={{ xs: 2, sm: 2, md: 8}}>
-                <Grid item xs={2} sm={4} md={4} order={{ xs: 2, sm: 2, md: 1 }}>
-                    <h3>Understanding the app</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Vivamus ex ipsum, ullamcorper et ultricies ut, ornare non mi. Duis commodo dapibus pharetra. Sed ut rhoncus ligula. 
-                    Phasellus quis neque nec sem molestie scelerisque. Proin ut orci in ligula tristique auctor non id nulla. 
-                    Donec placerat metus dolor, <span className="highlightedText">et viverra augue aliquet ac.</span> Ut arcu mauris, hendrerit commodo tristique quis, sodales ut nisl. 
-                    Cras massa risus, facilisis a faucibus nec, efficitur in lectus. Nullam tortor dui, molestie at blandit vel, scelerisque vel risus. 
-                    Donec eget nisi ornare, pharetra mauris iaculis, porttitor mauris. Phasellus ac accumsan arcu.
-                    </p>
-                    <button className="callToAction">
-                        SEE MORE!
-                    </button>
-                </Grid>
-                <Grid item xs={2} sm={4} md={4} className="mockupContainer" order={{ xs: 1, sm: 1, md: 2 }}>
-                    <img src={kickstarterMockup} alt="Kickstarter app on Android device"></img>
-                </Grid>
-            </Grid>
-        </div>
-
-        <div className="qaseRow">
-            <Grid container spacing={4} columns={{ xs: 2, sm: 2, md: 8}}>
-                <Grid item xs={2} sm={4} md={4}>
+                <Grid item xs={2} sm={4} md={4} className="gridContainer">
                     <img src={qaseMockup} alt="Test case management tools Qase"></img>
-                </Grid>
-                <Grid item xs={2} sm={4} md={4}>
-                    <h3>Writing the test cases</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Vivamus ex ipsum, ullamcorper et ultricies ut, ornare non mi. Duis commodo dapibus pharetra. Sed ut rhoncus ligula. 
-                        Phasellus quis neque nec sem molestie scelerisque. Proin ut orci in ligula tristique auctor non id nulla. 
-                        Donec placerat metus dolor, <span className="highlightedText">et viverra augue aliquet ac.</span> Ut arcu mauris, hendrerit commodo tristique quis, sodales ut nisl. 
-                        Cras massa risus, facilisis a faucibus nec, efficitur in lectus. Nullam tortor dui, molestie at blandit vel, scelerisque vel risus. 
-                        Donec eget nisi ornare, pharetra mauris iaculis, porttitor mauris. Phasellus ac accumsan arcu.
+                        Qase email: portfoliotestmail001@gmail.com
+                        <br/>
+                        Qase password: ytO6736D!
                     </p>
-                    <button className="callToAction">
-                        SEE MORE!
-                    </button>
+                    <a href='https://app.qase.io/project/KICKMOB' target="_blank" rel="noreferrer">
+                        <button className="callToAction">
+                            CHECK TEST CASES
+                        </button>
+                    </a>
                 </Grid>
-            </Grid>
-        </div>
-
-        <div className="appiumRow">
-            <Grid container spacing={4} columns={{ xs: 2, sm: 2, md: 8}}>
-                <Grid item xs={2} sm={4} md={4} order={{ xs: 2, sm: 2, md: 1 }}>
-                    <h3>Test automation</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Vivamus ex ipsum, ullamcorper et ultricies ut, ornare non mi. Duis commodo dapibus pharetra. Sed ut rhoncus ligula. 
-                    Phasellus quis neque nec sem molestie scelerisque. Proin ut orci in ligula tristique auctor non id nulla. 
-                    Donec placerat metus dolor, <span className="highlightedText">et viverra augue aliquet ac.</span> Ut arcu mauris, hendrerit commodo tristique quis, sodales ut nisl. 
-                    Cras massa risus, facilisis a faucibus nec, efficitur in lectus. Nullam tortor dui, molestie at blandit vel, scelerisque vel risus. 
-                    Donec eget nisi ornare, pharetra mauris iaculis, porttitor mauris. Phasellus ac accumsan arcu.
-                    </p>
-                    <button className="callToAction">
-                        SEE MORE!
-                    </button>
-                </Grid>
-                <Grid item xs={2} sm={4} md={4} order={{ xs: 1, sm: 1, md: 2 }}>
+                <Grid item xs={2} sm={4} md={4} className="gridContainer">
                     <img src={appiumMockup} alt="Appium automation code in Intelli J"></img>
+                    <a href='https://github.com/Ls-Fnsc/Mobile_Appium_Automation' target="_blank" rel="noreferrer">
+                        <button className="callToAction" id="scrollContact">
+                            CHECK TEST AUTOMATION
+                        </button>
+                    </a>
                 </Grid>
             </Grid>
         </div>
+        
     </div>
   )
 }

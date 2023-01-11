@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css';
 
-import Grid from '@mui/material/Grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -12,38 +11,43 @@ export const Contact = () => {
   return (
     <div className="contactContainer">
         <div className="contactModal">
-            <Grid container spacing={0} columns={{ xs: 2, sm: 2, md: 12}} className="contactContent">
-                <Grid item xs={2} sm={4} md={4}>
-                    <h3 className="modalTitle">
-                        Start a project
-                    </h3>
-                </Grid>
-                <Grid item xs={2} sm={4} md={4}>
-                    <p className="modalText">
-                        Interested in working together? We should queue up a time to chat. Interested in working together? We should queue up a time to chat.
-                    </p>
-                </Grid>
-                <Grid item xs={2} sm={4} md={4}>
+            <div className='contactModalContent'>
+                <h3 className="modalTitle">
+                    Do you think I'd be a good fit for your team?
+                </h3>
+                <a href="mailto:lfonsecadieguez@gmail.com">
                     <button className="modalButton">
-                        SEND AN EMAIL
+                        SEND ME AN EMAIL!
                     </button>
-                </Grid>
-            </Grid>
+                </a>
+            </div>
         </div>
         <div className="footer">
             <p>
-                Living, learning & leveling up <br/>
-                one day at a time
+                Made by Luis Fonseca <br/>
+                Guatemala City, Guatemala <br/>
+                <a href="tel:50247811200">
+                    +502 4781-1200
+                </a><br/>
+                <a href="mailto:lfonsecadieguez@gmail.com">
+                    lfonsecadieguez@gmail.com
+                </a>
             </p>
             <ul>
                 <li>
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <a href='https://www.linkedin.com/in/luis-antonio-fonseca-dieguez-60059a125/' target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} className="iconLink"/>
+                    </a>
                 </li>
                 <li>
-                    <FontAwesomeIcon icon={faGithub} />
+                    <a href='https://github.com/Ls-Fnsc' target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faGithub} className="iconLink"/>
+                    </a>
                 </li>
                 <li>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <a href="mailto:lfonsecadieguez@gmail.com">
+                        <FontAwesomeIcon icon={faEnvelope} className="iconLink"/>
+                    </a>
                 </li>
             </ul>
         </div>

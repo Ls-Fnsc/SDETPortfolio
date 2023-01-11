@@ -7,23 +7,33 @@ import profilePicture from '../../images/profile_picture.png';
 
 export const About = () => {
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="scrollAbout">
       <Grid container spacing={0} columns={{ xs: 2, sm: 2, md: 8}}>
           <Grid item xs={2} sm={4} md={5} className="textColumn">
             <h2>About me</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Vivamus ex ipsum, ullamcorper et ultricies ut, ornare non mi. Duis commodo dapibus pharetra. Sed ut rhoncus ligula. 
-              Phasellus quis neque nec sem molestie scelerisque. Proin ut orci in ligula tristique auctor non id nulla. 
-              Donec placerat metus dolor, <span className="highlightedText">et viverra augue aliquet ac.</span> Ut arcu mauris, hendrerit commodo tristique quis, sodales ut nisl. 
-              Cras massa risus, facilisis a faucibus nec, efficitur in lectus. Nullam tortor dui, molestie at blandit vel, scelerisque vel risus. 
-              Donec eget nisi ornare, pharetra mauris iaculis, porttitor mauris. Phasellus ac accumsan arcu.
+              Hi, I'm Luis, a 23-year-old that loves technology. I discovered HTML and CSS when I was 12 and from that moment I knew I wanted to be involved in the Tech industry. 
+              I've always wanted to know how things work so that I could break them. That's why I love Quality Assurance, 
+              it gives me an opportunity to understand how great software products are made, and <span className="highlightedText">it allows me to make sure they not only meet expectations but exceed them.</span>
+              <br/>
+              <br/>
+              Today, I work <span className="highlightedText">remotely as a QA Analyst</span> for a software development company based in Denver, Colorado. 
+              I've had the opportunity to work in projects in the sports and health industries, applying my <span className="highlightedText">knowledge, QA methodologies and processes.</span>
+              <br/>
+              <br/>
+              Some of <span className="highlightedText">my responsibilities are:</span> plan and execute test plans and test cases in order to perform integration, acceptance, regression, smoke and sanity testing, 
+              among others, for multiple software projects. Document and retest bugs and defects found in the testing process, and create testing 
+              automation scripts that are effective and repeatable.
+              <br/>
+              <br/>
+              Here are a few tools and technologies I've worked with:
             </p>
           </Grid>
           <Grid item xs={2} sm={4} md={3} className="pictureColumn">
             <img src={profilePicture} alt="Luis Antonio's profile" className="profilePicture"></img>
+          </Grid>
+          <Grid>
+            <span id="scrollTools">.</span>
           </Grid>
       </Grid>
     </div>

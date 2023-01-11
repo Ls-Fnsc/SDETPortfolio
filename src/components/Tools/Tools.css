@@ -29,6 +29,10 @@ body {
     color: #383838;
 }
 
+#scrollCaseStudy {
+    color: white;
+}
+
 @media screen and (max-width: 768px) {
     .toolsContainer {
       padding-left: 24px;

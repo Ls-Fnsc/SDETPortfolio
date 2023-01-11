@@ -139,10 +139,13 @@ export const Tools = () => {
                 <CardContent>
                   <img src={browserstackLogo} alt="Browserstack logo" style={{width: "95px"}}></img>
                   <p>
-                    Cross-browser testing platform that lets testers integrate tools to perform automated, visual, and live testing across mobile applications and websites.
+                    Cross-browser testing platform that lets testers to perform automated, visual, and live testing across mobile applications and websites.
                   </p>
                 </CardContent>
               </Card>
+          </Grid>
+          <Grid>
+            <span id="scrollCaseStudy">.</span>
           </Grid>
       </Grid>
     </div>

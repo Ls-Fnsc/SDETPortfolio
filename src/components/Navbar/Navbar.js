@@ -30,8 +30,8 @@ export const Navbar = () => {
 
     return (
         <nav className={ `list-group-item ${navigationStyle} ${navigationBackgroundStyle}` }>
-            <a href="/" className={ isNavExpanded ? "name expanded" : "name" }>
-                LUIS FONSECA
+            <a className={ isNavExpanded ? "name expanded" : "name" }>
+                LUIS FONSECA 
             </a>
 
             <button className="hamburger" onClick={() => {
@@ -43,19 +43,34 @@ export const Navbar = () => {
             <div className={ isNavExpanded ? "navigation-menu expanded" : "navigation-menu" }>
                 <ul>
                     <li>
-                        <a href="/home">Home</a>
+                        <a href="#scrollHome" onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            setOpen(!isOpen);
+                        }}>Home</a>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a href="#scrollAbout" onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            setOpen(!isOpen);
+                        }}>About</a>
                     </li>
                     <li>
-                        <a href="/contact">Tools</a>
+                        <a href="#scrollTools" onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            setOpen(!isOpen);
+                        }}>Tools</a>
                     </li>
                     <li>
-                        <a href="/contact">Case study</a>
+                        <a href="#scrollCaseStudy" onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            setOpen(!isOpen);
+                        }}>Case study</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <a href="#scrollContact" onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            setOpen(!isOpen);
+                        }}>Contact</a>
                     </li>
                 </ul>
             </div>

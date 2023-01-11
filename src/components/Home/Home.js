@@ -34,14 +34,19 @@ export const Home = () => {
   
   return (
     <div>
-      <section ref={vantaRef} className="homeContainer">
+      <section ref={vantaRef} className="homeContainer" id="scrollHome">
         <span>Hi, my name is</span>
-        <h1>Luis Antonio Fonseca.</h1>
+        <h1>Luis Fonseca.</h1>
         <h2>And I like to break software.</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          I'm a Quality Assurance Analyst based in Guatemala City, Guatemala. I have 2.5 years of experience in manual testing and 6 months of experience with mobile test automation.
+          I'm a geek at heart, that pays close attention to details who loves playing around with software. I'm well-organized, very good comunicator and a problem solver.
         </p>
-        <button className="callToAction">MORE ABOUT ME!</button>
+        <a href="#scrollAbout">
+          <button className="callToAction">
+            MORE ABOUT ME!
+          </button>
+        </a>
       </section>
     </div>
   );

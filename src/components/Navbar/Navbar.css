@@ -62,10 +62,6 @@
   transform: translateY(-50%);
   display: none;
 }
-  
-.hamburger:hover {
-  
-}
 
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -115,15 +111,10 @@
     padding: 1.5rem 0;
     font-size: 30px;
   }
-
-  .navigation-menu li:hover {
-    /*background-color: #eee;*/
-  }
 }
 
 @media screen and (max-width: 768px) {
   .navigation.expanded {
-    /*background-color: #141A4A;*/
     background-color: #11173c;
   }
   

@@ -13,7 +13,7 @@ body {
 .aboutContainer {
   background-color: #131A43;
   width: 100%;
-  padding: 15% 15% 20% 15%;
+  padding: 15% 15% 15% 15%;
 }
 
 .profilePicture {
@@ -42,9 +42,13 @@ body {
   color: #09FF00; 
 }
 
+#scrollTools{
+  color: #131A43;
+}
+
 @media screen and (max-width: 768px) {
   .aboutContainer {
-    padding: 21% 24px 55% 24px;
+    padding: 21% 24px 40% 24px;
   }
 }
 
