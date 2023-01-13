@@ -32,7 +32,7 @@ export const CaseStudy = () => {
             <Grid item xs={2} sm={4} md={4} className="gridContainer">
                 <img src={appiumMockup} alt="Appium automation code in Intelli J"></img>
                 <a href='https://github.com/Ls-Fnsc/Mobile_Appium_Automation' target="_blank" rel="noreferrer">
-                    <button className="callToAction" id="scrollContact">
+                    <button className="callToAction">
                         CHECK TEST AUTOMATION
                     </button>
                 </a>
@@ -46,6 +46,9 @@ export const CaseStudy = () => {
             <Grid item xs={2} sm={4} md={4} className="gridContainer">
                 <img src={bug1Picture2} alt="Bug ticket created in Jira for Kickstarter"></img>
             </Grid>
+            <Grid>
+                <span id="scrollContact">.</span>
+          </Grid>
         </Grid>
     </div>
   )
