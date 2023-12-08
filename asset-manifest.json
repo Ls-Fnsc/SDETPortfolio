@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SDETPortfolio/static/css/main.537563f6.css",
+    "main.js": "/SDETPortfolio/static/js/main.1c1c5fc9.js",
+    "static/media/jira_bug1_2.png": "/SDETPortfolio/static/media/jira_bug1_2.1c317e89b1dc21023b98.png",
+    "static/media/profile_picture.png": "/SDETPortfolio/static/media/profile_picture.030c88788b48310ebadc.png",
+    "static/media/jira_bug1_1.png": "/SDETPortfolio/static/media/jira_bug1_1.d8076b0dde6e03da256b.png",
+    "static/media/appium_intellij.png": "/SDETPortfolio/static/media/appium_intellij.36161cf867f29ceacd7a.png",
+    "static/media/test_case_qase.png": "/SDETPortfolio/static/media/test_case_qase.9e13fcb57916bc33fc8f.png",
+    "static/media/confluence_logo.png": "/SDETPortfolio/static/media/confluence_logo.f360a548223695480459.png",
+    "static/media/slack_logo.png": "/SDETPortfolio/static/media/slack_logo.4a47068f3e003d111eaa.png",
+    "static/media/jira_logo.png": "/SDETPortfolio/static/media/jira_logo.21392d114da2ba5b7798.png",
+    "static/media/testrail_logo.png": "/SDETPortfolio/static/media/testrail_logo.fd00acd8a2ffdfad0724.png",
+    "static/media/teams_logo.png": "/SDETPortfolio/static/media/teams_logo.125b8c82472257d6db4e.png",
+    "static/media/qase_logo.png": "/SDETPortfolio/static/media/qase_logo.c27fd4597a91daeddb80.png",
+    "static/media/proxyman_logo.png": "/SDETPortfolio/static/media/proxyman_logo.a237e5d7058e267340fa.png",
+    "static/media/visual_studio_logo.png": "/SDETPortfolio/static/media/visual_studio_logo.2562023ec16c69426db3.png",
+    "static/media/github_logo.png": "/SDETPortfolio/static/media/github_logo.05525cd9027955dbe054.png",
+    "static/media/browserstack_logo.png": "/SDETPortfolio/static/media/browserstack_logo.c9880018737764c7def5.png",
+    "static/media/appium_logo.png": "/SDETPortfolio/static/media/appium_logo.32deb33129a5219c7c3c.png",
+    "index.html": "/SDETPortfolio/index.html",
+    "main.537563f6.css.map": "/SDETPortfolio/static/css/main.537563f6.css.map",
+    "main.1c1c5fc9.js.map": "/SDETPortfolio/static/js/main.1c1c5fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.537563f6.css",
+    "static/js/main.1c1c5fc9.js"
+  ]
+}
