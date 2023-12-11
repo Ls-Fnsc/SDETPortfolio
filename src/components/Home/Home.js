@@ -39,8 +39,7 @@ export const Home = () => {
         <h1>Luis Antonio Fonseca.</h1>
         <h2>And I like to break software.</h2>
         <p>
-          I'm a Quality Assurance Analyst based in Guatemala City, Guatemala. I have 2.5 years of experience in manual testing and 6 months of experience with mobile test automation.
-          I'm a geek at heart, that pays close attention to details who loves playing around with software. I'm well-organized, very good comunicator and a problem solver.
+          I'm a Software QA Test Engineer based in Guatemala City, Guatemala. I'm a geek at heart, that pays close attention to details who loves playing around with software. I'm well-organized, very good comunicator and a problem solver.
         </p>
         <a href="#scrollAbout">
           <button className="callToAction">

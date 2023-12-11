@@ -64,7 +64,7 @@ export const Navbar = () => {
                         <a href="#scrollCaseStudy" onClick={() => {
                             setIsNavExpanded(!isNavExpanded);
                             setOpen(!isOpen);
-                        }}>Case study</a>
+                        }}>Projects</a>
                     </li>
                     <li>
                         <a href="#scrollContact" onClick={() => {
