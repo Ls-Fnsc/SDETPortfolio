@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SDETPortfolio/static/css/main.537563f6.css",
-    "main.js": "/SDETPortfolio/static/js/main.3cdcf368.js",
+    "main.js": "/SDETPortfolio/static/js/main.a36df47d.js",
     "static/media/jira_bug1_2.png": "/SDETPortfolio/static/media/jira_bug1_2.1c317e89b1dc21023b98.png",
     "static/media/profile_picture.png": "/SDETPortfolio/static/media/profile_picture.030c88788b48310ebadc.png",
     "static/media/jira_bug1_1.png": "/SDETPortfolio/static/media/jira_bug1_1.d8076b0dde6e03da256b.png",
@@ -20,10 +20,10 @@
     "static/media/appium_logo.png": "/SDETPortfolio/static/media/appium_logo.32deb33129a5219c7c3c.png",
     "index.html": "/SDETPortfolio/index.html",
     "main.537563f6.css.map": "/SDETPortfolio/static/css/main.537563f6.css.map",
-    "main.3cdcf368.js.map": "/SDETPortfolio/static/js/main.3cdcf368.js.map"
+    "main.a36df47d.js.map": "/SDETPortfolio/static/js/main.a36df47d.js.map"
   },
   "entrypoints": [
     "static/css/main.537563f6.css",
-    "static/js/main.3cdcf368.js"
+    "static/js/main.a36df47d.js"
   ]
 }
