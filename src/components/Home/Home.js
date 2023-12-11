@@ -36,7 +36,7 @@ export const Home = () => {
     <div>
       <section ref={vantaRef} className="homeContainer" id="scrollHome">
         <span>Hi, my name is</span>
-        <h1>Luis Fonseca.</h1>
+        <h1>Luis Antonio Fonseca.</h1>
         <h2>And I like to break software.</h2>
         <p>
           I'm a Quality Assurance Analyst based in Guatemala City, Guatemala. I have 2.5 years of experience in manual testing and 6 months of experience with mobile test automation.
